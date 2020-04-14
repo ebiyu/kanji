@@ -1,0 +1,24 @@
+{
+  "name": "kanji",
+  "version": "1.0.0",
+  "description": "kanji sitahanbun quiz",
+  "author": "Yusuke Ebihara",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "webserver": "http-server ./dist -o -p 8888"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "http-server": "^0.12.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
