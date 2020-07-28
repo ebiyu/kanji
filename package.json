@@ -5,10 +5,10 @@
   "author": "Yusuke Ebihara",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate && mv dist docs",
+    "dev": "cross-env nuxt",
+    "build": "cross-env nuxt build",
+    "start": "cross-env nuxt start",
+    "generate": "cross-env nuxt generate && mv dist docs",
     "webserver": "http-server ./dist -o -p 8888"
   },
   "dependencies": {
