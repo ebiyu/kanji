@@ -86,5 +86,8 @@ export default {
   },
   router: {
     base: "/kanji"
+  },
+  generate: {
+    dir: "docs"
   }
 }

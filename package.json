@@ -8,7 +8,7 @@
     "dev": "cross-env nuxt",
     "build": "cross-env nuxt build",
     "start": "cross-env nuxt start",
-    "generate": "cross-env nuxt generate && mv dist docs",
+    "generate": "cross-env nuxt generate",
     "webserver": "http-server ./dist -o -p 8888"
   },
   "dependencies": {
