@@ -35,6 +35,7 @@
             font-size="150pt"
             stroke="black"
             stroke-width="0.3px"
+            fill="black"
           >{{currentKanji}}</text>
           <rect
             v-if="boxVisible"
@@ -42,6 +43,7 @@
             :y="rectParams.y"
             :width="rectParams.width"
             :height="rectParams.height"
+            fill="black"
           />
         </svg>
       </v-card-text>
